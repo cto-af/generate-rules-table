@@ -1,22 +1,28 @@
 # @cto.af/generate-rules-table
 
-Description
+Generate a rules table in a eslint plugin's README.md.
+
+If anyone else wants to use this, I'll write some more docs.
 
 ## Installation
 
 ```sh
-npm install @cto.af/generate-rules-table
+npm install -D @cto.af/generate-rules-table
+npx generate-rules-table
 ```
 
-## API
+## README.md Comments
 
-Full [API documentation](http://cto-af.github.io/generate-rules-table/) is available.
+Ensure you have a README.md next to your package.json file.  It MUST include
+the following comments:
 
-Example:
-
-```js
+```md
+<!-- Rule Table Start -->
+<!-- Rule Table End -->
 ```
+
+The space between these comments will be filled in with a rules table.
 
 ---
-[![Build Status](https://github.com/cto-af/generate-rules-table/workflows/Tests/badge.svg)](https://github.com/cto-af/generate-rules-table/actions?query=workflow%3ATests)
-[![codecov](https://codecov.io/gh/cto-af/generate-rules-table/branch/main/graph/badge.svg?token=N7B7YLIDM4)](https://codecov.io/gh/cto-af/generate-rules-table)
+[![Tests](https://github.com/cto-af/generate-rules-table/actions/workflows/node.js.yml/badge.svg)](https://github.com/cto-af/generate-rules-table/actions/workflows/node.js.yml)
+[![codecov](https://codecov.io/gh/cto-af/generate-rules-table/graph/badge.svg?token=O0ZQ0hkP0V)](https://codecov.io/gh/cto-af/generate-rules-table)
