@@ -1,0 +1,8 @@
+// Data Snap v1
+
+exports[`good`] = {
+  "data": "Test generation:\n\n\u003C!-- Rule Table Start --\u003E\n| **Rule Name** | **Description** | **Recommended** |\n| :- | :- | :-: |\n| [`foo`](.\u002Fdocs\u002Frules\u002Ffoo.md) | Foo test | yes |\n| [`bar`](.\u002Fdocs\u002Frules\u002Fbar.md) | Bar test | no |\n\u003C!-- Rule Table End --\u003E\n\nWith text after.\n",
+  "meta": {
+    "expires": null
+  }
+}
