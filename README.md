@@ -18,5 +18,5 @@ Example:
 ```
 
 ---
-[![Build Status](https://github.com/cto-af/generate-rules-table/workflows/Tests/badge.svg)](https://github.com/cto-af/generate-rules-table/actions?query=workflow%3ATests)
-[![codecov](https://codecov.io/gh/cto-af/generate-rules-table/branch/main/graph/badge.svg?token=N7B7YLIDM4)](https://codecov.io/gh/cto-af/generate-rules-table)
+[![Tests](https://github.com/cto-af/generate-rules-table/actions/workflows/node.js.yml/badge.svg)](https://github.com/cto-af/generate-rules-table/actions/workflows/node.js.yml)
+[![codecov](https://codecov.io/gh/cto-af/generate-rules-table/graph/badge.svg?token=O0ZQ0hkP0V)](https://codecov.io/gh/cto-af/generate-rules-table)
