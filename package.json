@@ -3,8 +3,15 @@
   "version": "0.0.0",
   "decription": "",
   "main": "lib/index.js",
+  "bin": {
+    "generate-rules-table": "bin/generate-rules-table.js"
+  },
   "type": "module",
-  "keywords": [],
+  "keywords": [
+    "eslint",
+    "documentation",
+    "eslint-doc-generator"
+  ],
   "author": "Joe Hildebrand <joe-github@cursive.net>",
   "license": "MIT",
   "repository": {
