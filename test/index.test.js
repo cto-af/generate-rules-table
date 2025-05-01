@@ -4,7 +4,6 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import {rejects} from 'node:assert';
 import snap from 'snappy-snaps';
-// eslint-disable-next-line n/no-unsupported-features/node-builtins
 import test from 'node:test';
 
 const fixtures = fileURLToPath(new URL('./fixtures/', import.meta.url));
