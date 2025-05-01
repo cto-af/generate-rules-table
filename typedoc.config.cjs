@@ -17,4 +17,17 @@ module.exports = {
   categorizeByGroup: false,
   sort: ['static-first', 'alphabetical'],
   exclude: ['**/*.spec.ts'],
+  highlightLanguages: [
+    'bash',
+    'console',
+    'css',
+    'html',
+    'javascript',
+    'json',
+    'jsonc',
+    'json5',
+    'tsx',
+    'typescript',
+    'markdown',
+  ],
 };
