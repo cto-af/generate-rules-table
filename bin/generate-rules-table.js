@@ -14,7 +14,6 @@ program
 try {
   await createRulesTable(program.opts());
 } catch (er) {
-  // eslint-disable-next-line no-console
   console.error(er.message);
   process.exit(1);
 }
