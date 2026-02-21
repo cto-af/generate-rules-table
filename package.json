@@ -1,6 +1,6 @@
 {
   "name": "@cto.af/generate-rules-table",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "decription": "",
   "main": "lib/index.js",
   "bin": {
