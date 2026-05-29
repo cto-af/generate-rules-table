@@ -37,7 +37,7 @@
     "build": "npm run test && npm run lint && npm run docs && npm pack --dry-run"
   },
   "dependencies": {
-    "commander": "~14.0.3",
+    "commander": "~15.0.0",
     "eslint": "~10.3.0",
     "mdast-util-from-markdown": "~2.0.3",
     "package-up": "~5.0.0"
