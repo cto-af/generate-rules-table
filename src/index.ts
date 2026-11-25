@@ -71,8 +71,7 @@ function getRulesTableRange(text: string): [number, number] {
   );
 
   if (typeof startComment?.position?.end?.offset !== 'number' ||
-      typeof endComment?.position?.start?.offset !== 'number'
-  ) {
+      typeof endComment?.position?.start?.offset !== 'number') {
     throw new Error('Invalid markdown file, needs start/end comments');
   }
   return [

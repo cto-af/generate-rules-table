@@ -33,27 +33,29 @@
     "test": "c8 node --test",
     "posttest": "npm run ts",
     "docs": "typedoc",
-    "ts": "tsgo",
+    "ts": "tsc",
     "build": "npm run test && npm run lint && npm run docs && npm pack --dry-run"
   },
   "dependencies": {
-    "commander": "~15.0.0",
-    "eslint": "~10.4.1",
-    "mdast-util-from-markdown": "~2.0.3",
+    "commander": "~15.1.0",
+    "eslint": "~10.15.0",
+    "mdast-util-from-markdown": "~2.1.0",
     "package-up": "~5.0.0"
   },
   "devDependencies": {
-    "@cto.af/eslint-config": "^7.0.1",
-    "@eslint/markdown": "^8.0.2",
-    "@types/node": "^25.9.2",
-    "@typescript/native-preview": "7.0.0-dev.20260606.1",
-    "eslint-plugin-jsdoc": "^63.0.2",
+    "@cto.af/eslint-config": "^7.0.5",
+    "@cto.af/ncurc": "^0.0.3",
+    "@eslint/markdown": "^8.0.3",
+    "@types/node": "^26.6.6",
+    "@typescript/native": "npm:typescript@^7.0.2",
+    "eslint-plugin-jsdoc": "^65.4.12",
     "snappy-snaps": "^1.1.0",
     "superc8": "^12.7.0",
-    "typedoc": "^0.28.19",
-    "typescript-eslint": "^8.60.1"
+    "typedoc": "^0.28.20",
+    "typescript": "npm:@typescript/typescript6@^6.0.2",
+    "typescript-eslint": "^8.73.0"
   },
-  "packageManager": "pnpm@11.5.2",
+  "packageManager": "pnpm@12.22.0",
   "engines": {
     "node": ">=22"
   }
