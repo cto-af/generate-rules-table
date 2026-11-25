@@ -2,7 +2,7 @@ import {createRulesTable} from '../lib/index.js';
 import {fileURLToPath} from 'node:url';
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import {rejects} from 'node:assert';
+import {rejects} from 'node:assert/strict';
 import snap from 'snappy-snaps';
 import test from 'node:test';
 
